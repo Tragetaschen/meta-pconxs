@@ -9,7 +9,7 @@ require recipes-kernel/linux/linux-dtb.inc
 
 SRCBRANCH ?= "linux-${PV}.y"
 
-SRC_URI = "git://github.com/arneruhnau/linux-stable-pconxs.git;protocol=https;branch=${SRCBRANCH} \
+SRC_URI = "git://github.com/Tragetaschen/linux-stable-pconxs.git;protocol=https;branch=${SRCBRANCH} \
 	file://defconfig \
 "
 SRCREV="${AUTOREV}"
